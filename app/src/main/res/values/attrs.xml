@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomStepView">
+        <attr name="stepCount" format="integer"/>
+        <attr name="sv_selectedCircleColor" format="color" />
+        <attr name="sv_doneCircleRadius" format="dimension" />
+        <attr name="sv_doneCircleColor" format="color" />
+        <attr name="sv_textSize" format="dimension" />
+        <attr name="sv_lineSize" format="dimension" />
+        <attr name="sv_selectedCircleRadius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SpeedCustomView">
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="strokeColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <com.example.stepview.CustomStepView
+        android:id="@+id/custom_step_id"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:stepCount="4"
+        app:sv_doneCircleColor="@color/purple_500"
+        app:sv_doneCircleRadius="50dp"
+        app:sv_lineSize="30dp"
+        app:sv_selectedCircleColor="@color/purple_200"
+        app:sv_selectedCircleRadius="30dp"
+        app:sv_textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    <com.example.stepview.SpeedCustomView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        />
+</LinearLayout>
